@@ -38,8 +38,8 @@ class Clock extends Thread {
 public class J_xii {
     public static void main(String[] args) {
         Clock clock = new Clock();
-        clock.start();
         Scanner scan = new Scanner(System.in);
+        clock.start();
         while(true) {
             System.out.print("Enter 1 to check time: ");
             int choice = scan.nextInt();
