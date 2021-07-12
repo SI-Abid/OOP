@@ -6,3 +6,10 @@ Hello World
 I missed today's contest at cf div3 because was watching a movie
 Need to work on it.
 OK
+		Date: Mon Jul 12 14:14:59 BDT 2021
+
+		Author: Saiham Islam Abid
+
+I made a video on C programming. It is for those people who has no idea about programming and want to learn.
+I will try my best to help them out with this, and hopefully they will stick with me till the end of this journey.
+Title for this first video- I'm thinking . . . C programming Ep-1 [Hello world]

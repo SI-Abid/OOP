@@ -13,7 +13,7 @@ public class Observer {
             }
             FileWriter fw = new FileWriter(file, true);
     
-            String dateString = "\t\tDate: " + new java.util.Date();
+            String dateString = "\n\t\tDate: " + new java.util.Date();
             fw.write(dateString+"\n\n");
             
             System.out.print("Enter your full-name: ");
@@ -30,7 +30,7 @@ public class Observer {
                 
                 fw.write(line+"\n");
             }
-
+            
             scanner.close();
             fw.close();
             
