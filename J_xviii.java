@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Triagle {
     static void drawDownwardPyramid(int n) {
         for (int i = 1; i <= n; i++) {
-            int j = 3*(i-1);
+            int j = 3*i-3;
             while(j-- > 0) {
                 System.out.print(" ");
             }
