@@ -13,3 +13,11 @@ OK
 I made a video on C programming. It is for those people who has no idea about programming and want to learn.
 I will try my best to help them out with this, and hopefully they will stick with me till the end of this journey.
 Title for this first video- I'm thinking . . . C programming Ep-1 [Hello world]
+
+		Date: Sat Jul 17 00:24:12 BDT 2021
+
+		Author: Saiham Islam Abid
+
+Today I learnt segmented sieve and applied it using java.
+Long contest has been started on number theory. Might have to learn bitwise sieve after solving some problem using sieve and segmented sieve.
+InshaAllah if I can keep this flow I will reach my goal soon.
