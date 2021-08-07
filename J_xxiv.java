@@ -7,6 +7,14 @@ class Book {
     int price;
     String publisher;
 
+    public Book() {
+        title = "";
+        author = "";
+        pages = 0;
+        price = 0;
+        publisher = "";
+    }
+
     public Book(String ... param) {
         this.title = param[0];
         this.author = param[1];
@@ -22,9 +30,13 @@ class Book {
         System.out.println("Price: " + this.price);
         System.out.println("Publisher: " + this.publisher);
     }
+
+    String getAddr() {
+        return this.toString().substring(this.toString().indexOf("@")+1);
+    }
 }
 
-class Library {
+class Library extends Book {
     private int counter;
     private int totalPrice;
     private int totalPages;
@@ -51,17 +63,21 @@ class Library {
 public class J_xxiv {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        Book book = new Book(in.nextLine(), in.nextLine(), in.nextLine(), in.nextLine(), in.nextLine());
+        // Book book1 = new Book(in.nextLine(), in.nextLine(), in.nextLine(), in.nextLine(), in.nextLine());
+        Book book = new Book("The C Programming Language", " Brian W. Kernighan", "654", "25", "Prentice Hall");
         book.showInfo();
         
         Library library = new Library();
-        while (in.hasNextLine()) {
-            String[] param = in.nextLine().split(" ");
-            Book book1 = new Book(param[0], param[1], param[2], param[3], param[4]);
-            library.addBook(book1);
-        }
-        library.showInfo();
-        
+        // while (in.hasNextLine()) {
+        //     String[] param = in.nextLine().split(" ");
+        //     Book book1 = new Book(param[0], param[1], param[2], param[3], param[4]);
+        //     library.addBook(book1);
+        // }
+        // library.showInfo();
+
+        System.out.println(library.getAddr());
+        System.out.println(book.getAddr());
+
         in.close();
     }
 }
