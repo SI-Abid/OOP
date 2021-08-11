@@ -7,7 +7,7 @@ class Book {
     int price;
     String publisher;
 
-    public Book() {
+    public Book() {         // this is a constructor
         title = "";
         author = "";
         pages = 0;
@@ -15,7 +15,7 @@ class Book {
         publisher = "";
     }
 
-    public Book(String ... param) {
+    public Book(String ... param) {     // this is a constructor
         this.title = param[0];
         this.author = param[1];
         this.pages = Integer.parseInt(param[2]);

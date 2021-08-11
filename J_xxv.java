@@ -60,11 +60,11 @@ public class J_xxv {
                 int v = scanner.nextInt();
                 int w = scanner.nextInt();
                 adj[u][v] = 1;
-                adj[v][u] = 1;
+                adj[v][u] = 1;  
                 cost[u][v] = w;
                 cost[v][u] = w;
             }
-            int s = 1;
+            int s = 0;
             Dijstkra.spt(node, adj, cost, s);
 
             scanner.close();
