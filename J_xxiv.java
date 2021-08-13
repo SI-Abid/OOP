@@ -8,11 +8,7 @@ class Book {
     String publisher;
 
     public Book() {         // this is a constructor
-        title = "";
-        author = "";
-        pages = 0;
-        price = 0;
-        publisher = "";
+        this("","","","","");
     }
 
     public Book(String ... param) {     // this is a constructor
