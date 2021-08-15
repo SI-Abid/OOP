@@ -1,8 +1,9 @@
-import java.util.Scanner;
 
 class Bus {
     String name, dest, from;
-    
+    Bus() {
+
+    }
     
 }
 
