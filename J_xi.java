@@ -9,7 +9,7 @@ class Layer_1 {
         return Layer_2.data;
     }
 
-    static class Layer_2 {              // Inner class must be static to access data of static type
+    class Layer_2 {              
         private static int data;
         public static void setData3(int data) {
             Layer_3.data = data;
@@ -18,7 +18,7 @@ class Layer_1 {
             return Layer_3.data;
         }
 
-        static class Layer_3 {          // Inner class must be static to access data of static type
+        class Layer_3 {
             private static int data;
             public static void setData1(int data) {
                 Layer_1.data = data;
