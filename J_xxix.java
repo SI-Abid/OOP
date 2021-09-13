@@ -1,4 +1,4 @@
-class PrintPrint {
+class Print {
     static void printSeries(int ... args) {
         int start = 0;
         int end = args[0];
@@ -20,9 +20,9 @@ public class J_xxix {
     public static void main(String[] args) {
 
         // NOT OVERLOADING
-        PrintPrint.printSeries(5);
-        PrintPrint.printSeries(5, 10);
-        PrintPrint.printSeries(5, 15, 3);
+        Print.printSeries(5);
+        Print.printSeries(5, 10);
+        Print.printSeries(5, 15, 3);
 
     }
 }
