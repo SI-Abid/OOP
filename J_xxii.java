@@ -1,12 +1,12 @@
-class Node {
+class node {
     int data;
-    Node next;
-    Node prev;
+    node next;
+    node prev;
 }
 
 class LinkedList {
-    Node head;
-    Node tail;
+    node head;
+    node tail;
     int size;
     public LinkedList() {
         head = null;
@@ -22,22 +22,22 @@ class LinkedList {
         }
     }
     public void add(int data) {
-        Node newNode = new Node();
-        newNode.data = data;
-        newNode.next = null;
-        newNode.prev = null;
+        node newnode = new node();
+        newnode.data = data;
+        newnode.next = null;
+        newnode.prev = null;
         if (head == null) {
-            head = newNode;
-            tail = newNode;
+            head = newnode;
+            tail = newnode;
         } else {
-            tail.next = newNode;
-            newNode.prev = tail;
-            tail = newNode;
+            tail.next = newnode;
+            newnode.prev = tail;
+            tail = newnode;
         }
         size++;
     }
     public void printList() {
-        Node current = head;
+        node current = head;
         while (current != null) {
             System.out.print(current.data + " <--> ");
             current = current.next;
@@ -45,7 +45,7 @@ class LinkedList {
         System.out.println();
     }
     public void remove(int data) {
-        Node current = head;
+        node current = head;
         while (current != null) {
             if (current.data == data) {
                 if (current.prev != null) {
@@ -65,31 +65,31 @@ class LinkedList {
         }
     }
     public void insert(int data, int index) {
-        Node newNode = new Node();
-        newNode.data = data;
+        node newnode = new node();
+        newnode.data = data;
         if (index == 0) {
-            newNode.next = head;
-            newNode.prev = null;
-            head = newNode;
+            newnode.next = head;
+            newnode.prev = null;
+            head = newnode;
             if (head.next != null) {
-                head.next.prev = newNode;
+                head.next.prev = newnode;
             } else {
-                tail = newNode;
+                tail = newnode;
             }
             size++;
             return;
         }
-        Node current = head;
+        node current = head;
         for (int i = 0; i < index - 1; i++) {
             current = current.next;
         }
-        newNode.next = current.next;
-        newNode.prev = current;
-        current.next = newNode;
-        if (newNode.next != null) {
-            newNode.next.prev = newNode;
+        newnode.next = current.next;
+        newnode.prev = current;
+        current.next = newnode;
+        if (newnode.next != null) {
+            newnode.next.prev = newnode;
         } else {
-            tail = newNode;
+            tail = newnode;
         }
         size++;
     }
