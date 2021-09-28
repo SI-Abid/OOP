@@ -20,7 +20,7 @@ public class Mid {
             System.out.println("ALways "+age+" years old.");
             demoException();
         } catch (Exception e) {
-            //TODO: handle exception
+            e.printStackTrace();
         } finally {
             System.out.println("Always gets executed.");
         }
