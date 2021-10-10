@@ -42,7 +42,6 @@ class Lizard implements ReptileInterface {
     public String getSpecies() {
         return species;
     }
-
 }
 
 // Q3
