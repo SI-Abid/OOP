@@ -1,0 +1,52 @@
+Time for: Drop 1 00:00
+Time for: Drop 2 00:01
+Time for: Drop 3 00:03
+Time for: Drop 4 00:05
+Time for: Drop 1 00:09
+Time for: Drop 1 00:19
+Time for: Drop 2 00:21
+Time for: Drop 1 00:29
+Time for: Drop 3 00:33
+Time for: Drop 1 00:39
+Time for: Drop 2 00:41
+Time for: Drop 1 00:49
+Time for: Drop 1 00:59
+Time for: Drop 2 01:01
+Time for: Drop 3 01:03
+Time for: Drop 4 01:05
+Time for: Drop 1 01:09
+Time for: Drop 1 01:19
+Time for: Drop 2 01:21
+Time for: Drop 1 01:29
+Time for: Drop 3 01:33
+Time for: Drop 1 01:39
+Time for: Drop 2 01:41
+Time for: Drop 1 01:49
+Time for: Drop 1 01:59
+Time for: Drop 2 02:01
+Time for: Drop 3 02:03
+Time for: Drop 4 02:05
+Time for: Drop 1 02:09
+Time for: Drop 1 02:19
+Time for: Drop 2 02:21
+Time for: Drop 1 02:29
+Time for: Drop 3 02:33
+Time for: Drop 1 02:39
+Time for: Drop 2 02:41
+Time for: Drop 1 02:49
+Time for: Drop 1 02:59
+Time for: Drop 2 03:01
+Time for: Drop 3 03:03
+Time for: Drop 4 03:05
+Time for: Drop 1 03:09
+Time for: Drop 1 03:19
+Time for: Drop 2 03:21
+Time for: Drop 1 03:29
+Time for: Drop 3 03:33
+Time for: Drop 1 03:39
+Time for: Drop 2 03:41
+Time for: Drop 1 03:49
+Drop 1 finished
+Drop 2 finished
+Drop 3 finished
+Drop 4 finished

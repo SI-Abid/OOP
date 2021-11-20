@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Triagle {
+class Triangle {
     static void drawDownwardPyramid(int n) {
         for (int i = 1; i <= n; i++) {
             int j = 3*i-3;
@@ -23,7 +23,7 @@ public class J_xviii {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        Triagle.drawDownwardPyramid(n);
+        Triangle.drawDownwardPyramid(n);
         scanner.close();
     }
 }

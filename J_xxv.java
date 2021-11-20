@@ -1,6 +1,6 @@
 import java.util.PriorityQueue;
 import java.util.Scanner;
-import java.io.File;
+// import java.io.File;
 import java.util.Arrays;
 
 class Node {
@@ -10,9 +10,9 @@ class Node {
         this.u = u;
         this.cost = cost;
     }
-    public boolean lessthan(Node that) {
-        return this.cost < that.cost;
-    }
+    // public boolean lessthan(Node that) {
+    //     return this.cost < that.cost;
+    // }
 }
 
 class Dijstkra {
@@ -46,9 +46,9 @@ class Dijstkra {
 
 public class J_xxv {
     public static void main(String[] args) {
-        File file = new File("in.txt");
+        // File file = new File(System.in);
         try {
-            Scanner scanner = new Scanner(file);
+            Scanner scanner = new Scanner(System.in);
             int node = scanner.nextInt();
             int edge = scanner.nextInt();
             

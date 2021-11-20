@@ -1,41 +1,7 @@
-Shyamoli 
-Dhaka 
-Narayangonj
-Himachol 
-Dhanmodi 
-Mirpur
-Greenline 
-Borishal 
-Sylhet
-Bondhu 
-Gabtoli 
-Signboard
-Shyamoli 
-Borishal 
-Narayangonj
-Himachol 
-Dhanmodi 
-Mirpur
-Greenline 
-Borishal 
-Sylhet
-Bondhu 
-Gabtoli 
-Signboard
-Himachol 
-Chashara 
-Mirpur
-Bondhon 
-Dhaka 
-Sylhet
-Joy Bangla
-15000
-Banglar bagh
-10000
-Katukutu khan
-1500
-Bisik Travel
-2000
-Bhromon bilash
-1800
-Bondhu
+5 6
+1 2 2
+2 5 5
+2 3 4
+1 4 1
+4 3 3
+3 5 1
