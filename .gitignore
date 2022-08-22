@@ -1,3 +1,4 @@
 *.b
 *.class
 .vscode
+*.exe
