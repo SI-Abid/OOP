@@ -9,7 +9,7 @@ public class J_xii {
             System.out.print("Enter 1 to check time: ");
             int choice = scan.nextInt();
             if (choice == 1) {
-                System.out.println("Time: " + clock.getTime());
+                System.out.println("Time: " + Clock.getTime());
             } else {
                 System.out.println("Exiting...");
                 break;

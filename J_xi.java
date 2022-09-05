@@ -9,7 +9,7 @@ class Layer_1 {
         return Layer_2.data;
     }
 
-    class Layer_2 {              
+    static class Layer_2 {              
         private static int data;
         public static void setData3(int data) {
             Layer_3.data = data;
@@ -18,7 +18,7 @@ class Layer_1 {
             return Layer_3.data;
         }
 
-        class Layer_3 {
+        static class Layer_3 {
             private static int data;
             public static void setData1(int data) {
                 Layer_1.data = data;
